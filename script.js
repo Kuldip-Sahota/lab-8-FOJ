@@ -11,3 +11,6 @@ let student = {
 console.log(student.name);
 console.log(student.age);
 console.log(student.displayInfo());
+
+let studentJSON = JSON.stringify(student);
+console.log(studentJSON);
