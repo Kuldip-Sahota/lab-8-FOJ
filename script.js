@@ -1,0 +1,9 @@
+let student = {
+    name: "John Doe",
+    age: 20,
+    enrolled: true,
+    courses: ["Math", "Science", "History"],
+    displayInfo: function() {
+        return `${this.name}, Age: ${this.age}`;
+    }
+};
