@@ -30,3 +30,17 @@ console.log(clonedStudent);
 
 clonedStudent.graduationYear = 2025;
 console.log(clonedStudent);
+
+let newCourses = ["Art", "Music"];
+let allCourses = [...student.courses, ...newCourses];
+console.log(allCourses);
+
+student.addCourse = function(course) {
+    this.courses.push(course);
+};
+student.getTotalCourses = function() {
+    return this.courses.length;
+};
+
+student.addCourse("English");
+console.log(student.getTotalCourses());
