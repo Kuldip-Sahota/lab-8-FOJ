@@ -27,3 +27,6 @@ console.log(firstScore, secondScore);
 
 let clonedStudent = { ...student };
 console.log(clonedStudent);
+
+clonedStudent.graduationYear = 2025;
+console.log(clonedStudent);
