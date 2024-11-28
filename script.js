@@ -7,3 +7,7 @@ let student = {
         return `${this.name}, Age: ${this.age}`;
     }
 };
+
+console.log(student.name);
+console.log(student.age);
+console.log(student.displayInfo());
