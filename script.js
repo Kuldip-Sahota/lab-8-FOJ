@@ -20,3 +20,7 @@ console.log(studentObj);
 
 let { name, courses } = student;
 console.log(name, courses);
+
+let scores = [85, 92, 78, 90];
+let [firstScore, secondScore] = scores;
+console.log(firstScore, secondScore);
